@@ -3,7 +3,8 @@ is_good_credit = True
 
 print("*" * 45)
 if is_good_credit:
-    print("They need to put down 10%")
+    down_payment = 0.1*price
+    print(f"Down Payment: ${down_payment}")
 else:
-    print("Otherwise")
-    print("They need to put down 20%")
+    down_payment = 0.2 * price
+    print(f"Down Payment: ${down_payment}")
