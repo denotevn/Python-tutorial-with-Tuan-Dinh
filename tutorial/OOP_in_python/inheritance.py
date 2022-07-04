@@ -7,10 +7,16 @@ class Mamal:
 
 
 class Dog(Mamal):
-    pass
+    def bark(self):
+        print("Bark")
 
 class Cat(Mamal):
-    pass
+    def be_annoying(self):
+        print("annoying")
+
+cat1 = Cat()
+cat1.walk()
+cat1.be_annoying()
 
 dog = Dog()
 dog.walk()  # walk
