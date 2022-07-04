@@ -1,4 +1,5 @@
 from pydoc_data.topics import topics
+from unicodedata import name
 
 
 class Person:
@@ -7,6 +8,7 @@ class Person:
         self.age = age
         self.topics = topics
     def talk(self):
+        print(f"Hi! I am {self.name}.\nI'm {self.age} years old.")
         print(f"{self.name} talk to you about some {self.topics}")
 
 
