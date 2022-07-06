@@ -4,7 +4,7 @@ from random import random
 import random
 class Dice:
 
-    def roll(output):
+    def roll(self):
         first = random.randint(1,6)
         second = random.randint(1,6)
         output = (first, second)
